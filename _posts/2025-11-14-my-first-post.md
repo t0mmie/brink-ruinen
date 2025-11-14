@@ -1,4 +1,5 @@
 ---
+layout: post
 title: My First Post
 coverImage: /assets/1375070_73422625_lq.jpg
 author:
