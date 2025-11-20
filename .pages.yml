@@ -15,9 +15,4 @@ content:
       - { name: coverImage, label: Cover image, type: image }
       - { name: date, label: Date, type: date, options: { time: true, format: "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'" } }
       - { name: embed, label: Embed, type: code, options: { language: html }}
-      - name: ogImage
-        label: Image (social sharing)
-        type: object
-        fields:
-          - { name: url, label: URL, type: image }
       - { name: body, label: Body, type: rich-text }
