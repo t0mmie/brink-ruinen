@@ -6,11 +6,7 @@ excerpt: In efficitur hendrerit eros, eget pellentesque elit pellentesque vitae.
   libero et ipsum posuere, faucibus tempus nulla tincidunt. Donec at tellus
   consectetur quam hendrerit venenatis.
 coverImage: /assets/1375070_73422625_lq.jpg
-embed: <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/DH11CPDXzr4?si=nYcVHyRzgU57LYv-"
-  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
-  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+embed: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2Ja4Fo7OJws?si=qjHJmDlPK4Ab7kGx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ---
 Nam semper elementum dolor, ut tincidunt risus porttitor ut. Nulla turpis purus, pretium at pharetra quis, eleifend hendrerit arcu. Fusce elementum metus turpis, at egestas leo malesuada ut.
 
