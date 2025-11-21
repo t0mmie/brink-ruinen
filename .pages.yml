@@ -37,7 +37,7 @@ content:
     type: file
     path: 50-contact.md
   - name: config
-    label: Jekyll config
+    label: Website config
     path: _config.yml
     type: file
     fields:
