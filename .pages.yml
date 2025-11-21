@@ -18,23 +18,23 @@ content:
       - { name: body, label: Body, type: rich-text }
   - name: over-ons
     label: Over ons
-    type: single
+    type: file
     path: 10-over-ons.md
   - name: repertoire
     label: Repertoire
-    type: single
+    type: file
     path: 20-repertoire.md
   - name: fotos
     label: Foto's
-    type: single
+    type: file
     path: 30-fotos.md
   - name: agenda
     label: Agenda
-    type: single
+    type: file
     path: 40-agenda.md
   - name: contact
     label: Contact
-    type: single
+    type: file
     path: 50-contact.md
   - name: config
     label: Jekyll config
