@@ -20,6 +20,11 @@ content:
     label: Over ons
     type: file
     path: 10-over-ons.md
+    fields:
+      - { name: layout, type: string, hidden: true, default: page }
+      - { name: permalink, type: string, hidden: true, default: /over-ons/ }     
+      - { name: title, label: Title, type: string, required: true }
+      - { name: body, label: Body, type: rich-text }
   - name: repertoire
     label: Repertoire
     type: file
