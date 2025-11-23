@@ -34,7 +34,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 heading: "Brink Ruinen"
 subheading: "Engelstalige folk muziekgroep uit Noord en oost Nederland"
 banner: public/assets/images/banner.jpg
-favicon: /public/assets/images/logo.png
+favicon: public/assets/images/logo.png
 
 # Header navigation links
 header_pages:
