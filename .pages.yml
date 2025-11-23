@@ -66,6 +66,12 @@ content:
     label: Repertoire
     type: file
     path: repertoire.md
+    fields:
+      - { name: layout, type: string, hidden: true, default: post }
+      - { hidden: [ header, navigator, related_posts ]}
+      - { name: permalink, type: string, hidden: true, default: /repertoire/ }
+      - { name: title, label: Title, type: string, required: true }
+      - { name: body, label: Body, type: rich-text }
 
   - name: config
     label: Website config
