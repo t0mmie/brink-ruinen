@@ -1,8 +1,9 @@
 media:
-  input: public/assets
-  output: /assets
+  input: public/assets/images
+  output: /assets/images
   categories: [ "image" ]
 content:
+
   - name: posts
     label: Posts
     type: collection
@@ -16,31 +17,56 @@ content:
       - { name: date, label: Date, type: date, options: { time: true, format: "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'" } }
       - { name: embed, label: Embed, type: code, options: { language: html }}
       - { name: body, label: Body, type: rich-text }
-  - name: over-ons
-    label: Over ons
-    type: file
-    path: 10-over-ons.md
-    fields:
-      - { name: layout, type: string, hidden: true, default: page }
-      - { name: permalink, type: string, hidden: true, default: /over-ons/ }     
-      - { name: title, label: Title, type: string, required: true }
-      - { name: body, label: Body, type: rich-text }
-  - name: repertoire
-    label: Repertoire
-    type: file
-    path: 20-repertoire.md
-  - name: fotos
-    label: Foto's
-    type: file
-    path: 30-fotos.md
+
   - name: agenda
     label: Agenda
     type: file
-    path: 40-agenda.md
+    path: agenda.md
+    fields:
+      - { name: layout, type: string, hidden: true, default: post }
+      - { hidden: [ header, navigator, related_posts ]}
+      - { name: permalink, type: string, hidden: true, default: /agenda/ }
+      - { name: title, label: Title, type: string, required: true }
+      - { name: body, label: Body, type: rich-text }
+
   - name: contact
     label: Contact
     type: file
-    path: 50-contact.md
+    path: contact.md
+    fields:
+      - { name: layout, type: string, hidden: true, default: post }
+      - { hidden: [ header, navigator, related_posts ]}
+      - { name: permalink, type: string, hidden: true, default: /contact/ }
+      - { name: title, label: Title, type: string, required: true }
+      - { name: body, label: Body, type: rich-text }
+
+  - name: fotos
+    label: Foto's
+    type: file
+    path: fotos.md
+    fields:
+      - { name: layout, type: string, hidden: true, default: post }
+      - { hidden: [ header, navigator, related_posts ]}
+      - { name: permalink, type: string, hidden: true, default: /fotos/ }
+      - { name: title, label: Title, type: string, required: true }
+      - { name: body, label: Body, type: rich-text }
+
+  - name: over-ons
+    label: Over ons
+    type: file
+    path: over-ons.md
+    fields:
+      - { name: layout, type: string, hidden: true, default: post }
+      - { hidden: [ header, navigator, related_posts ]}
+      - { name: permalink, type: string, hidden: true, default: /over-ons/ }     
+      - { name: title, label: Title, type: string, required: true }
+      - { name: body, label: Body, type: rich-text }
+
+  - name: repertoire
+    label: Repertoire
+    type: file
+    path: repertoire.md
+
   - name: config
     label: Website config
     path: _config.yml
@@ -53,3 +79,16 @@ content:
         label: Website description
         type: string
         description: Will be provused for any page with no description.
+      - name: heading
+        label: Website heading
+        type: string
+      - name: subheading
+        label: Website subheading
+        type: string
+      - name: banner
+        label: Banner image
+        type: image
+      - name: favicon
+        label: Logo image
+        type: image
+

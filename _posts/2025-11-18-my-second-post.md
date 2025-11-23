@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Second Post
-coverImage: /assets/1375070_73422625_lq.jpg
+coverImage: /assets/images/1375070_73422625_lq.jpg
 embed: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2Ja4Fo7OJws?si=qjHJmDlPK4Ab7kGx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ---
 In efficitur hendrerit eros, eget pellentesque elit pellentesque vitae. Donec vel dignissim lacus. Proin congue id enim eget pretium. Sed aliquam libero et ipsum posuere, faucibus tempus nulla tincidunt. Donec at tellus consectetur quam hendrerit venenatis.
