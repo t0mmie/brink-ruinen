@@ -2,6 +2,9 @@
 layout: post
 permalink: /test/
 title: Test
+body,:
+  - {}
+  - {}
 ---
 
 {% for body in content.body %}
