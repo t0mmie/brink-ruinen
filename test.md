@@ -4,4 +4,7 @@ permalink: /test/
 title: Test
 ---
 
-Doing some testing.
+{% for body in content.body %}
+    {{ body.name }}
+    {{ body.description }}
+{% endfor %}
