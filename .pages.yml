@@ -94,7 +94,6 @@ content:
       - name: body
         label: Body
         type: object
-        list: true
         fields:
           - name: name
             label: Name
