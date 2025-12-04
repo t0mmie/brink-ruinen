@@ -2,8 +2,5 @@
 layout: post
 permalink: /test/
 title: Test
-body,:
-  - {}
-  - {}
-  - {}
 ---
+[object Object],[object Object]
