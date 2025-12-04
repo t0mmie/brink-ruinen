@@ -92,8 +92,7 @@ content:
       - { hidden: [ header, navigator ] }
       - { name: permalink, type: string, hidden: true, default: /test/ }
       - { name: title, label: Title, type: string, required: true }
-      - {
-        name: body,
+      - name: body,
         label: Body,
         type: object
         fields:
@@ -103,7 +102,6 @@ content:
           - name: description
             label: Description
             type: string
-      }
 
   - name: config
     label: Website config
