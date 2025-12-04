@@ -5,4 +5,8 @@ hidden:
 - navigator
 ---
 
-{{ content }}
+<h2>{{ page.title }}</h2>
+
+{% for item in page.persons %}
+    <p>{{ item.name }}</p>
+{% endfor %}
