@@ -83,6 +83,28 @@ content:
       - { name: gallery, label: Gallery, type: image, options: { multiple: true }}
       - { name: body, label: Body, type: rich-text }
 
+  - name: test
+    label: Test
+    type: file
+    path: test.md
+    fields:
+      - { name: layout, type: string, hidden: true, default: post }
+      - { hidden: [ header, navigator ] }
+      - { name: permalink, type: string, hidden: true, default: /test/ }
+      - { name: title, label: Title, type: string, required: true }
+      - {
+        name: body,
+        label: Body,
+        type: object
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: description
+            label: Description
+            type: string
+      }
+
   - name: config
     label: Website config
     path: _config.yml
