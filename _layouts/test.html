@@ -8,5 +8,7 @@ hidden:
 <h2>{{ page.title }}</h2>
 
 {% for item in page.persons %}
+    <img src="/public/{{ item.photo }}" alt="{{ item.name }}" width="250" />
     <p>{{ item.name }}</p>
+    <p>{{ item.description }}</p>
 {% endfor %}
