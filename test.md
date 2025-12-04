@@ -2,6 +2,7 @@
 layout: post
 permalink: /test/
 title: Test
+body,:
+  - {}
+  - {}
 ---
-
-Doing some testing.
