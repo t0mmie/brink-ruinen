@@ -88,7 +88,7 @@ content:
     type: file
     path: test.md
     fields:
-      - { name: layout, type: string, hidden: true, default: post }
+      - { name: layout, type: string, hidden: true, default: test }
       - { name: permalink, type: string, hidden: true, default: /test/ }
       - { name: title, label: Title, type: string, required: true }
       - name: body
