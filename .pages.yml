@@ -89,11 +89,10 @@ content:
     path: test.md
     fields:
       - { name: layout, type: string, hidden: true, default: post }
-      - { hidden: [ header, navigator ] }
       - { name: permalink, type: string, hidden: true, default: /test/ }
       - { name: title, label: Title, type: string, required: true }
-      - name: body,
-        label: Body,
+      - name: body
+        label: Body
         type: object
         list: true
         fields:
