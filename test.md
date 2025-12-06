@@ -15,4 +15,7 @@ persons:
   - photo: /assets/images/Lodewijk.jpg
     name: Lodewijk
     description: zang en snaren
+  - photo: /assets/images/Geke.jpg
+    name: Geke
+    description: zang, dwarsfluit en ukelele
 ---
