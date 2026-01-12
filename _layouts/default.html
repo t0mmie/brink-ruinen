@@ -31,7 +31,7 @@
                 <li class="me-2">
                     <a
                         class="{% if page.url == item.url %}{{ tab_active }}{% else %}{{ tab_inactive }}{% endif %}"
-                        href="{{ item.url }}"
+                        href="{{ site.baseurl }}{{ item.url }}"
                     >
                         {{ item.title }}
                     </a>
