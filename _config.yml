@@ -5,7 +5,8 @@ logo: "/public/assets/images/logo/logo-resize.png"
 favicon: "/public/assets/images/logo/favicon.ico"
 header: "/public/assets/images/header.jpg"
 
-url: "https://t0mmie.github.io/jekyll-sandbox"
+url: "https://t0mmie.github.io"
+baseurl: "/jekyll-sandbox"
 
 menu:
   - title: "Home"
