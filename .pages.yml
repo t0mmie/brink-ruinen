@@ -53,8 +53,8 @@ content:
         type: object
         list: true
         fields:
-          - name: song
-            label: Song
+          - name: title
+            label: Title
             type: string
           - name: url
             label: URL
