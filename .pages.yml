@@ -4,57 +4,13 @@ media:
   categories: [ "image" ]
 content:
 
-  - name: posts
-    label: Posts
-    type: collection
-    path: _posts
-    view:
-      fields: [ excerpt_image, title, date ]
-    fields:
-      - { name: layout, type: string, hidden: true, default: post }
-      - { name: title, label: Title, type: string, required: true }
-      - { name: date, label: Date, type: date, options: { time: true, format: "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'" } }
-      - { name: excerpt_image, label: Cover image, type: image }
-      - { name: gallery, label: Gallery, type: image, options: { multiple: true }}
-      - { name: body, label: Body, type: rich-text }
-
-  - name: agenda
-    label: Agenda
+  - name: home
+    label: Home
     type: file
-    path: agenda.md
+    path: index.md
     fields:
-      - { name: layout, type: string, hidden: true, default: post }
-      - { hidden: [ header, navigator, related_posts ]}
-      - { name: permalink, type: string, hidden: true, default: /agenda/ }
+      - { name: layout, type: string, hidden: true, default: basic }
       - { name: title, label: Title, type: string, required: true }
-      - { name: excerpt_image, label: Cover image, type: image }
-      - { name: gallery, label: Gallery, type: image, options: { multiple: true }}
-      - { name: body, label: Body, type: rich-text }
-
-  - name: contact
-    label: Contact
-    type: file
-    path: contact.md
-    fields:
-      - { name: layout, type: string, hidden: true, default: post }
-      - { hidden: [ header, navigator, related_posts ]}
-      - { name: permalink, type: string, hidden: true, default: /contact/ }
-      - { name: title, label: Title, type: string, required: true }
-      - { name: excerpt_image, label: Cover image, type: image }
-      - { name: gallery, label: Gallery, type: image, options: { multiple: true }}
-      - { name: body, label: Body, type: rich-text }
-
-  - name: fotos
-    label: Foto's
-    type: file
-    path: fotos.md
-    fields:
-      - { name: layout, type: string, hidden: true, default: post }
-      - { hidden: [ header, navigator, related_posts ]}
-      - { name: permalink, type: string, hidden: true, default: /fotos/ }
-      - { name: title, label: Title, type: string, required: true }
-      - { name: excerpt_image, label: Cover image, type: image }
-      - { name: gallery, label: Gallery, type: image, options: { multiple: true }}
       - { name: body, label: Body, type: rich-text }
 
   - name: over-ons
@@ -62,43 +18,21 @@ content:
     type: file
     path: over-ons.md
     fields:
-      - { name: layout, type: string, hidden: true, default: post }
-      - { hidden: [ header, navigator, related_posts ]}
-      - { name: permalink, type: string, hidden: true, default: /over-ons/ }     
+      - { name: layout, type: string, hidden: true, default: gallery }
       - { name: title, label: Title, type: string, required: true }
-      - { name: excerpt_image, label: Cover image, type: image }
-      - { name: gallery, label: Gallery, type: image, options: { multiple: true }}
-      - { name: body, label: Body, type: rich-text }
-
-  - name: repertoire
-    label: Repertoire
-    type: file
-    path: repertoire.md
-    fields:
-      - { name: layout, type: string, hidden: true, default: post }
-      - { hidden: [ header, navigator, related_posts ]}
-      - { name: permalink, type: string, hidden: true, default: /repertoire/ }
-      - { name: title, label: Title, type: string, required: true }
-      - { name: excerpt_image, label: Cover image, type: image }
-      - { name: gallery, label: Gallery, type: image, options: { multiple: true }}
-      - { name: body, label: Body, type: rich-text }
-
-  - name: test
-    label: Test
-    type: file
-    path: test.md
-    fields:
-      - { name: layout, type: string, hidden: true, default: test }
-      - { name: permalink, type: string, hidden: true, default: /test/ }
-      - { name: title, label: Title, type: string, required: true }
-      - name: persons
-        label: Persons
+      - name: photos
+        label: Photos
         type: object
         list: true
         fields:
           - name: photo
             label: Photo
             type: image
+          - name: size
+            label: Size
+            type: select
+            options:
+              values: [ '1/3', '2/3', '3/3' ]
           - name: name
             label: Name
             type: string
@@ -106,28 +40,67 @@ content:
             label: Description
             type: string
 
-  - name: config
-    label: Website config
-    path: _config.yml
+  - name: repertoire
+    label: Repertoire
     type: file
+    path: repertoire.md
     fields:
-      - name: title
-        label: Website title
-        type: string
-      - name: description
-        label: Website description
-        type: string
-        description: Will be provused for any page with no description.
-      - name: heading
-        label: Website heading
-        type: string
-      - name: subheading
-        label: Website subheading
-        type: string
-      - name: banner
-        label: Banner image
-        type: image
-      - name: favicon
-        label: Logo image
-        type: image
+      - { name: layout, type: string, hidden: true, default: repertoire }
+      - { name: title, label: Title, type: string, required: true }
+      - { name: body, label: Body, type: rich-text }
+      - name: songs
+        label: Songs
+        type: object
+        list: true
+        fields:
+          - name: song
+            label: Song
+            type: string
+          - name: url
+            label: URL
+            type: string
 
+  - name: fotos
+    label: Foto's
+    type: file
+    path: fotos.md
+    fields:
+      - { name: layout, type: string, hidden: true, default: gallery }
+      - { name: title, label: Title, type: string, required: true }
+      - name: photos
+        label: Photos
+        type: object
+        list: true
+        fields:
+          - name: photo
+            label: Photo
+            type: image
+          - name: size
+            label: Size
+            type: select
+            options:
+              values: [ '1/3', '2/3', '3/3' ]
+          - name: name
+            label: Name
+            type: string
+          - name: description
+            label: Description
+            type: string
+
+  - name: agenda
+    label: Agenda
+    type: file
+    path: agenda.md
+    fields:
+      - { name: layout, type: string, hidden: true, default: basic }
+      - { name: title, label: Title, type: string, required: true }
+      - { name: body, label: Body, type: rich-text }
+
+  - name: contact
+    label: Contact
+    type: file
+    path: contact.md
+    fields:
+      - { name: layout, type: string, hidden: true, default: basic }
+      - { name: title, label: Title, type: string, required: true }
+      - { name: body, label: Body, type: rich-text }

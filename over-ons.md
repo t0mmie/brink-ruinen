@@ -1,20 +1,25 @@
 ---
-layout: post
-permalink: /over-ons/
+layout: gallery
 title: Over ons
-gallery:
-  - /assets/images/2025-12-03 - lodewijk kl.png
-  - /assets/images/2025-12-03 -bert kl1.png
-  - /assets/images/2025-12-03 - geke kl.png
-  - /assets/images/2025-12-03 - Kees kl.png
-  - /assets/images/2025-12-02 - Henny.png
+photos:
+  - photo: /assets/images/Kees.jpg
+    size: '1/3'
+    name: Kees
+    description: zang en bohdran
+  - photo: /assets/images/henny1.jpg
+    size: '1/3'
+    name: Henny
+    description: zang, gitaar en ukelele
+  - photo: /assets/images/Bert.jpg
+    size: '2/3'
+    name: Bert
+    description: banjo en gitaar
+  - photo: /assets/images/Lodewijk.jpg
+    size: '2/3'
+    name: Lodewijk
+    description: zang en snaren
+  - photo: /assets/images/Geke.jpg
+    size: '2/3'
+    name: Geke
+    description: zang, dwarsfluit en ukelele
 ---
-/Kees, zang en bohdran
-
-Lodewijk, zang , gitaren, mandoline en ukelille
-
-Geke, zang, dwarsfluit en ukelille.
-
-Bert, Banjo en gitaar
-
-Henny, zang, gitaar en ukelille.

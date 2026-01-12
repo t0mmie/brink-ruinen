@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ site.heading }} {{ site.subheading }} &dash; {{ page.title }} </title>
+    <link rel="icon" href="{{ site.url }}{{ site.favicon }}" type="image/x-icon" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-linear-to-t from-emerald-950 to-zinc-700 min-h-screen">
+<div class="max-w-4xl mx-auto bg-emerald-950 drop-shadow-lg rounded-b-3xl">
+    <header class="grid grid-cols-2 place-content-between bg-[url({{ site.url }}{{ site.header }})] bg-cover bg-center">
+        <div class="p-2">
+            <img
+                class="w-48 object-contain md:object-cover"
+                alt="{{ site.heading }} {{ site.subheading }}"
+                src="{{ site.url }}{{ site.logo }}"
+            />
+        </div>
+        <div class="place-self-end p-2">
+            <h1 class="text-center text-7xl font-bold text-white uppercase text-shadow-lg/20 xplace-content-end">
+                {{ site.heading }} <span class="text-5xl">{{ site.subheading }}</span>
+            </h1>
+        </div>
+    </header>
+    <nav class="bg-emerald-800">
+        {% assign tab_inactive = "inline-block px-4 py-2 hover:bg-emerald-950 max-sm:rounded-xl md:rounded-t-xl" %}
+        {% assign tab_active = "inline-block px-4 py-2 bg-emerald-950 max-sm:rounded-xl md:rounded-t-xl" %}
+        <ul class="flex flex-wrap justify-space-betweenx space-x-8 text-white font-bold pt-4 pl-4">
+            {% for item in site.menu %}
+                <li class="me-2">
+                    <a
+                        class="{% if page.url == item.url %}{{ tab_active }}{% else %}{{ tab_inactive }}{% endif %}"
+                        href="{{ item.url }}"
+                    >
+                        {{ item.title }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+    {{ content }}
+</div>
+</body>
+</html>

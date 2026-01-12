@@ -1,6 +1,5 @@
 ---
-layout: post
-permalink: /agenda/
+layout: basic
 title: Agenda
 ---
 /2026.

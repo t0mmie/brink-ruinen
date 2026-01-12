@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<article class="p-8 h-full mb-8">
+    <table class="table-auto w-full text-white text-left">
+        <thead>
+        <tr>
+            <th>Titel</th>
+            <th>Luister</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for song in page.songs %}
+            <tr>
+                <td>{{ song.title }}</td>
+                <td>
+                    {% if song.url %}
+                        <a href="{{ song.url }}" class="underline text-slate-400" target="_blank">
+                            {{ song.url }}
+                        </a>
+                    {% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</article>

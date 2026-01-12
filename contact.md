@@ -1,12 +1,6 @@
 ---
-layout: post
-permalink: /contact/
+layout: basic
 title: Contact
-gallery:
-  - /assets/images/1375070_73422625_lq.jpg
-  - /assets/images/1375620_39576321.webp
-  - /assets/images/banner.jpg
-  - /assets/images/default-image.jpeg
 ---
 # sdbkdfbds
 
