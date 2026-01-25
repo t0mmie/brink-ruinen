@@ -6,7 +6,7 @@ favicon: "/public/assets/images/logo/favicon.ico"
 header: "/public/assets/images/header.jpg"
 
 url: "https://t0mmie.github.io"
-baseurl: "/jekyll-sandbox"
+baseurl: "/brink-ruinen"
 
 menu:
   - title: "Home"
