@@ -4,8 +4,8 @@ title: Agenda
 ---
 /2026.
 
-In februari is er het krokus concert in de Mariakerk te Ruinen.
+15 februari is er het krokus concert in de Mariakerk te Ruinen.
 
-Verder moeten er nog data gevonden worden voor optredens in Lochem en Groningen.
+17 april in ons stamcafe Brinkzicht.
 
-Ook zal er een optrede in ons stamcafé Brinkzicht georganiseerd worden.
+Data voor Lochem en Groningen worden later bekend gemaakt.
