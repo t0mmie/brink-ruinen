@@ -8,7 +8,7 @@ photos:
   - photo: /public/assets/images/Lochem 2.jpg
     size: 1/3
     name: Lochem
-  - photo: /public/assets/images/Lochem a.jpg
+  - photo: /public/assets/images/lochem a.jpg
     size: 1/3
     name: Lochem
   - photo: /public/assets/images/Lochem.jpg
