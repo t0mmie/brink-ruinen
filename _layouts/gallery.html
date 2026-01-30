@@ -5,7 +5,7 @@ layout: default
 <article class="p-4 h-full mb-8 flex flex-row flex-wrap">
     {% for item in page.photos %}
         <figure class="basis-{{ item.size }} p-4">
-            <img src="{{ site.url }}{{ site.baseurl }}/public/{{ item.photo }}" alt="{{ item.name }}">
+            <img src="{{ site.url }}{{ site.baseurl }}/{{ item.photo }}" alt="{{ item.name }}">
             <figcaption class="text-white italic">
                 {{ item.name }}<br />
                 {{ item.description }}
