@@ -19,5 +19,5 @@ photos:
     name: Lochem
   - photo: /public/assets/images/VERV-20250404-0923.jpg
     size: 1/3
-    name: VERV 20250404
+    name: 1e optreden in Brinkzicht
 ---
