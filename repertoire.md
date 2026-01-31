@@ -28,5 +28,6 @@ songs:
   - title: whiskey in the jar
   - title: wild rover
   - title: will you go lassie go
+  - {}
+  - title: Bovenstaande liederen staan o.a. op ons repertoire.
 ---
-De volgende liederen staan onder andere op ons repertoire:
