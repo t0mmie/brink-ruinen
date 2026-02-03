@@ -4,7 +4,7 @@ title: Agenda
 ---
 /2026.
 
-15 februari is er het krokus concert in de Mariakerk te Ruinen.
+15 maart is er het krokus concert in de Mariakerk te Ruinen.
 
 17 april in ons stamcafe Brinkzicht.
 
