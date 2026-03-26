@@ -8,7 +8,7 @@ title: Agenda
 
 15 maart is er het krokus concert in de Mariakerk te Ruinen.
 
-17 april in ons stamcafe Brinkzicht.
+17 april in ons stamcafé Brinkzicht.
 
 ![](/public/assets/images/affichec.png)
 
