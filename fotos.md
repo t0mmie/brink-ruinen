@@ -23,4 +23,7 @@ photos:
   - photo: /public/assets/images/1000007855-1.jpg
     size: 2/3
     name: foodfestival Brink Ruinen
+  - photo: /public/assets/images/foto brink foodfestivala.jpg
+    size: 3/3
+    name: foodfestival 2026
 ---
