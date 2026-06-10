@@ -12,6 +12,8 @@ title: Agenda
 
 ![](/public/assets/images/affichec.png)
 
-&nbsp;
 
-Data voor Lochem en Groningen worden later bekend gemaakt.
+
+16 augustus 14,30 uur  De Kippesthee te 't Haantje.
+
+4 oktober 14.30 uur De Hunzeborgh te Groningen.
