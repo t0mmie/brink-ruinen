@@ -26,4 +26,7 @@ photos:
   - photo: /public/assets/images/foto brink foodfestivala.jpg
     size: 3/3
     name: foodfestival 2026
+  - photo: /public/assets/images/mengpaneelb.jpeg
+    size: 1/3
+    name: mengpaneel aangekocht met een bijdrage van € 500 Stichting Ruinen 1865
 ---
