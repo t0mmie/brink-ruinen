@@ -14,6 +14,10 @@ title: Agenda
 
 
 
-16 augustus 14,30 uur  De Kippesthee te 't Haantje.
+16 augustus 15.00 uur  De Kippesthee te 't Haantje.
+
+![](</public/assets/images/poster kippesthee.jpg>)
+
+23 sept 2026 privé-optreden Ansen.
 
 4 oktober 14.30 uur De Hunzeborgh te Groningen.
