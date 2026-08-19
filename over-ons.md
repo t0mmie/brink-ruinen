@@ -25,4 +25,8 @@ photos:
   - photo: /public/assets/images/brinkzicht binnen.jpg
     size: 3/3
     name: In ons stamcafe
+  - photo: /public/assets/images/gijs-1.jpg
+    size: 3/3
+    name: Gijs
+    description: Mondharmonica
 ---
