@@ -29,4 +29,13 @@ photos:
   - photo: /public/assets/images/mengpaneelb.jpeg
     size: 1/3
     name: mengpaneel aangekocht met een bijdrage van € 500 Stichting Ruinen 1865
+  - photo: /public/assets/images/kippesthee 1.jpg
+    size: 3/3
+    name: optreden in de kippesthee
+  - photo: /public/assets/images/Kippesthee 3.jpg
+    size: 3/3
+    name: publiek Kippesthee
+  - photo: /public/assets/images/kippesthee 2.jpg
+    size: 3/3
+    name: Kippesthee
 ---
