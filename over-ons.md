@@ -13,7 +13,7 @@ photos:
   - photo: /public/assets/images/Bert.jpg
     size: 1/3
     name: Bert
-    description: banjo en gitaar
+    description: banjo, zang en gitaar
   - photo: /public/assets/images/Lodewijk.jpg
     size: 1/3
     name: Lodewijk
@@ -27,6 +27,6 @@ photos:
     name: In ons stamcafe
   - photo: /public/assets/images/gijs-1.jpg
     size: 1/3
-    name: Gijs
+    name: Gijs en zang
     description: Mondharmonica
 ---
