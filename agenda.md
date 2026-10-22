@@ -21,3 +21,5 @@ title: Agenda
 23 sept 2026 privé-optreden Ansen.
 
 4 oktober 14.30 uur De Hunzeborgh te Groningen.
+
+21 maart 2027 café De Keijzer in Lochem
