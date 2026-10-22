@@ -9,6 +9,7 @@ songs:
   - title: dicey reilly
     url: https://youtube.com
   - title: drunken sailor
+    url: https://youtu.be/ZoTOzRjo7HQ?si=iXHEOD5lzHqwG43M
   - title: ettrick (spanish) lady
   - title: i wish i had
   - title: i tell me ma
