@@ -3,11 +3,8 @@ layout: repertoire
 title: Repertoire
 songs:
   - title: all for me grog
-    url: https://youtube.com
   - title: black velvet band
-    url: https://youtube.com
   - title: dicey reilly
-    url: https://youtube.com
   - title: drunken sailor
     url: https://youtu.be/ZoTOzRjo7HQ?si=iXHEOD5lzHqwG43M
   - title: ettrick (spanish) lady
