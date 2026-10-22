@@ -28,5 +28,5 @@ photos:
   - photo: /public/assets/images/gijs-1.jpg
     size: 1/3
     name: Gijs en zang
-    description: Mondharmonica
+    description: Mondharmonica en zang
 ---
