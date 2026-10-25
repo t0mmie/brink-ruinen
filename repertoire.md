@@ -23,8 +23,10 @@ songs:
   - title: the irish rover
   - title: twa reqruiting soldiers
   - title: waltzing mathilda
+    url: https://youtu.be/P1ddU_NTrlY?si=SL2Ans4wp8KqVF-p
   - title: whiskey in the jar
   - title: wild rover
+    url: https://youtu.be/YYbJCMcQwtM?si=fvAeMVB8M_Jn-Aoe
   - title: will you go lassie go
   - {}
   - title: Bovenstaande liederen staan o.a. op ons repertoire.
