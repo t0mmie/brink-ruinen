@@ -23,3 +23,5 @@ title: Agenda
 4 oktober 14.30 uur De Hunzeborgh te Groningen.
 
 21 maart 2027 café De Keijzer in Lochem
+
+16 april 2017 20.00 uur café Brinkzicht samen met Ruunder Basalt
