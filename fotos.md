@@ -38,4 +38,7 @@ photos:
   - photo: /public/assets/images/kippesthee 2.jpg
     size: 3/3
     name: Kippesthee
+  - photo: /public/assets/images/Groningen.jpg
+    size: 2/3
+    name: Hunzeborgh Groningen
 ---
