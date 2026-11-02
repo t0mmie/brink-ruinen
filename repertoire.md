@@ -30,4 +30,6 @@ songs:
   - title: will you go lassie go
   - {}
   - title: Bovenstaande liederen staan o.a. op ons repertoire.
+  - title: optreden Groningen compilatie
+    url: https://youtu.be/bq-Za70XN-I?si=ffRgxU68gFw3HtWP
 ---
